@@ -1,0 +1,49 @@
+h1, h2 {
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+}
+
+.jumbotron {
+  margin-bottom: 5px;
+}
+
+.container {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.bg {
+  max-height: 60vh;
+  overflow: hidden;
+}
+
+.bg__img {
+  width: 100%;
+}
+
+/* Restrição de tamanho das capas dos projetos */
+
+div.article__img-constraint img {
+  max-height: inherit;
+}
+
+.article__img-constraint {
+  max-height: 40vh;
+}
+
+/* Restrição de altura das imagens presentes nos modais */
+
+div.item {
+  display: inline-block;
+  text-align: center;
+}
+
+div.item img {
+  max-height: 70vh;
+  margin: auto;
+}
+

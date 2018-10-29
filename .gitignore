@@ -1,2 +1,12 @@
-#related files and configuration
-local
+# local files
+local/
+
+# temporary files
+desktop.ini
+temp
+tmp
+.vscode
+
+# python temporary files and folders
+__pycache__
+*.pyc
